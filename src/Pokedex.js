@@ -17,10 +17,11 @@ class Pokedex extends Component {
     return (
         <div>
           {pokemonList.map(pokemon => <Pokecard
-            name={pokemon.name}
-            type={pokemon.type}
-            experience={pokemon.base_experience}
-            imgSrc={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + pokemon.id + ".png"}
+              name={pokemon.name}
+              type={pokemon.type}
+              experience={pokemon.base_experience}
+              imgSrc={'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' +
+              pokemon.id + '.png'}
           />)}
         </div>
     );
