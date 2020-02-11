@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
         <div>
-          <h1>This is a Pokedex</h1>
+          <h1>Pokedex</h1>
           <Pokedex/>
         </div>
     );
